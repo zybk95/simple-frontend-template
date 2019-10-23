@@ -1,0 +1,22 @@
+<!-- layout.nunjucks -->
+{# vscode de nunjucks indirmeyi unutmayın !!! #}
+{# Bu dosya pekala .html de olabilirdi amma velakinki nunjucks ile çalıştığımız anlaşılsın diye .njk yapıldı #}
+{# .njk artık bir standarmış... #}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- Diğer sayfalarda yazdığımız kodlar buraya gelecek..
+    o kod buraya gelecek <3 -->
+
+    {% block content %}
+    {% endblock %}
+    
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

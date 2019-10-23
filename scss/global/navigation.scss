@@ -1,0 +1,46 @@
+// ÖRNEK
+// .Navigation {
+//   background-color: rgba(gray, .1);
+//   height: 46px;
+
+//   .container {
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//     overflow-x: scroll;
+//     @include mq {
+//       overflow-x: hidden;
+//     }
+//   }
+
+//   &-item {
+//     margin-right: 20px;
+//     font-size: $font-size-small;
+//     font-weight: bold;
+//     @include mq (tablet) {
+//       padding: 15px 10px;
+//       &:hover {
+//         background-color: lightcyan;
+//         border: 0;
+//         border-radius: 30%;
+//       }
+//     }
+
+//     &:nth-child(1) {
+//       color: darkslateblue;
+//     }
+
+//     &:nth-child(2) {
+//       color: darkslategray;
+//     }
+
+//     &:nth-child(3) {
+//       color: darkslateblue;
+//     }
+
+//     &:nth-child(4) {
+//       color: darkgoldenrod;
+//     }
+
+//   }
+// }

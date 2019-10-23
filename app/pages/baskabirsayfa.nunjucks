@@ -1,0 +1,7 @@
+<!-- index.njk -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <h1 class="baskasayfa">Burası, baska page!!!!</h1>
+  {% include "partials/navigation.nunjucks" %}  
+{% endblock %}

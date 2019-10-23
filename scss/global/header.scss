@@ -1,0 +1,161 @@
+// ÖRNEK
+// $header_yuksekligi: 68px;
+// .Header {
+//   //border-bottom: 2px solid darkred;
+//   //background-color: lightcyan;
+//   height:$header_yuksekligi;
+
+//   .container {
+//     // background-color: burlywood;
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     height: 100%;
+//     // padding-top: 20px;
+//     // padding-bottom: 20px;
+//   }
+
+//   &-logo {
+//     img {
+//       width: 144px;
+//     }
+//   }
+
+//   &-switch {
+//     position: relative;
+//     //left: 10;
+//     background-color: transparent;
+//     margin-left: auto;
+//     // color: darkred;
+
+
+//     &:hover {
+//       color: rgb(0, 85, 114);
+//     }
+
+//     @include mq {
+//       display: none;
+//     }
+//   }
+
+//   &-menu {
+//     pointer-events: none; //hiç bir mause olayından etkilenme
+//     opacity: 0;
+
+//     //transform: translate(100%, /*-200%*/ 0);
+
+//     transform: translateX(100%);
+
+//     transition: .9s;
+//     display: flex;
+//     position: fixed;
+//     left: 0;
+//     right: 0;
+//     top: $header_yuksekligi;
+//     padding-left: $gutter+20px;
+//     padding-right: $gutter+20px;
+//     padding-bottom: 20px;
+//     flex-direction: column;
+//     background-color: white;
+//     box-shadow: 0 20px 30px rgba(black, .2);
+
+//     .Header.menu-show & {
+//       pointer-events: auto; //ama sen göründüğün zaman evntsin
+//       // aouto olsun sorun mause seni etkileyebilir.
+//       opacity: 1;
+//       transform: translate(0, 0);
+//     }
+
+//     @include mq("tablet") {
+//       opacity: 1;
+//       transform: translate(0);
+//       transition: 0s;
+//       margin-left: auto;
+//       flex-direction: row;
+//       position: static;
+//       box-shadow: none;
+//       background-color: transparent;
+//       padding-left: 0;
+//       padding-right: 0;
+//       padding-bottom: 0;
+//       pointer-events: auto;
+//       align-items: center;
+
+
+//     }
+
+//     &-user {
+//       margin-right: 10px;
+//       display: flex;
+//       align-items: center;
+//       flex-direction: column;
+//       @include mq {
+//         flex-direction: row;
+
+//       }
+
+//       a {
+//         width: 100%;
+//         justify-content: center;
+//         display: inline-flex;
+//         align-items: center;
+//         margin-right: 3px;
+
+//         // background: lightgray;
+//         padding-left: 20px;
+//         padding-right: 20px;
+//         height: $finger-size + 2;
+//         border-radius: 120px;
+//         font-weight: bold;
+
+//         &:hover {
+//           background-color: lightcyan;
+//         }
+//       }
+//     }
+
+//     &-property {
+//       margin-top: 20px;
+//       justify-content: center;
+//       @include mq {
+//         margin-top: 0px;
+//       }
+//     }
+
+//     &-helper {
+//       display: flex;
+//       justify-content: center;
+//       margin-top: 20px;
+
+//       @include mq("tablet") {
+//         margin-top: 0px;
+//         margin-left: 10px;
+//       }
+
+//       select {
+//         appearance: none; //bu tikleri kaldırıyor
+//         border: 1px solid darkolivegreen;
+//         padding-left: 10px;
+//         padding-right: 10px;
+//         border-radius: 0px;
+//         margin-left: -1px;
+//         height: $finger-size;
+//         font-weight: bold;
+
+//         &:nth-child(1) {
+//           border-top-left-radius: 5px;
+//           border-bottom-left-radius: 5px;
+//         }
+
+//         &:nth-child(2) {
+//           border-top-right-radius: 5px;
+//           border-bottom-right-radius: 5px;
+//         }
+
+//         &:hover {
+//           background-color: lightcyan;
+//         }
+//       }
+//     }
+//   }
+// }

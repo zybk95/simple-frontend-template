@@ -1,0 +1,22 @@
+//değişkenler && mq
+@import "config/variable";
+@import "config/mixin";
+
+//reset css'lerimiz browserlerin stillerinden kurtuluyoruz
+@import "helper/normalize";
+@import "helper/formalize";
+
+//tüm sitede geçerli olacak şeyleri burada tanımlarız daha da karışmayız
+//misal butun .conteiner sınıfları şu sitilde olsun
+//tüm p tagleri bu stilde olsun gibi
+@import "global";
+
+
+//sitede ortak olan kısımların bulunduğu scss'ler
+@import "global/header";
+@import "global/navigation";
+
+
+//sayfaları tek tek buradan import et scss/pages klasörü altında
+@import "pages/index";
+@import "pages/baskabirsayfa";
