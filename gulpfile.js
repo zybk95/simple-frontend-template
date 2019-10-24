@@ -14,7 +14,7 @@ gulp.task('browser-sync', function () {
       // baseDir: "app/"
     }
   });
-  // gulp.watch('app/**/*.html').on('change', reload);
+  
   gulp.watch('app/**/*.nunjucks', gulp.parallel('nunjucks'));
   gulp.watch('scss/**/*.scss', gulp.series('css'));
 });

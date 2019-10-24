@@ -3,5 +3,5 @@
 
 {% block content %}
   <h1 class="baskasayfa">Burası, baska page!!!!</h1>
-  {% include "partials/navigation.nunjucks" %}  
+  {# {% include "partials/navigation.nunjucks" %}   #}
 {% endblock %}

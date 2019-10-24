@@ -3,5 +3,11 @@
 
 {% block content %}
   <h1 class="anasayfa">Burası, index page!!!!</h1>
+
   {% include "partials/navigation.nunjucks" %}
+  {# {% import "macros/nav-macro.nunjucks" as nav %} #}
+  <hr/>
+
+  {% import 'macros/navmacro.nunjucks' as nav %}
+  {{ nav.cardSwatch("AAbrandColor", "#f06dd6", "aaaOur main color.") }}
 {% endblock %}
